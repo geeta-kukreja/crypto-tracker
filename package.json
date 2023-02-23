@@ -1,0 +1,55 @@
+{
+  "name": "cryptotracker",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "~27.0.0",
+    "react-native-css-transformer": "^1.2.2",
+    "react-native-scripts": "^1.14.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "eslint-config-rallycoding": "^3.2.0",
+    "expo": "^27.0.1",
+    "firebase": "^5.4.0",
+    "lodash": "^4.17.10",
+    "native-base": "^2.7.2",
+    "react": "16.3.1",
+    "react-icons": "^3.0.5",
+    "react-native": "~0.55.2",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-easy-toast": "^1.1.0",
+    "react-native-elements": "^0.19.1",
+    "react-native-loading-spinner-overlay": "^0.5.2",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-modal-dropdown": "^0.6.2",
+    "react-native-paper": "^1.11.1",
+    "react-native-router-flux": "^4.0.1",
+    "react-native-scrollable-tab-view": "^0.8.0",
+    "react-native-search-filter": "^0.1.4",
+    "react-native-simple-toast": "^0.0.8",
+    "react-native-smart-scroll-view": "^1.3.7",
+    "react-native-svg-charts": "^5.2.0",
+    "react-native-swipe-navigation": "^1.0.0-beta",
+    "react-native-tab-view": "^1.0.2",
+    "react-native-vector-icons": "^5.0.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0",
+    "remote-redux-devtools": "^0.5.12"
+  }
+}
